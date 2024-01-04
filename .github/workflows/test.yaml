@@ -18,8 +18,7 @@ jobs:
         shell: bash
         with:
           node-version: '16'
-      - name: Install
-        run: npm i
+    
   goodbye:
     runs-on: ubuntu-latest
     steps:
@@ -28,5 +27,4 @@ jobs:
         shell: bash
          with:
           node-version: '16'
-      - name: Install
-        run: npm i
+   
