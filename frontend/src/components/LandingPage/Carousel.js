@@ -34,7 +34,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="bg-gray-300 p-8">
+    <div className="bg-gray-300">
       <h2 className="text-2xl font-bold text-center mb-8">What Our Users Say</h2>
       <Slider {...carouselSettings}>
        
@@ -70,12 +70,12 @@ const Carousel = () => {
         </div>
       </Slider>
 
-      <div className="flex mx-0 mt-8">
+      <div className="flex mx-0 bottom-0 mt-8">
         <div className="w-2/5">
           {/* Your PNG image */}
           <img src={Clickaway} alt="clickaway" className="w-full" />
         </div>
-        <div className="bg-blue-900 w-3/5 text-white p-8 flex flex-col justify-center">
+        <div className="bg-customClick w-3/5 text-white p-8 flex flex-col justify-center">
           <p className="text-lg mb-4">You are just one click away from a global chatter</p>
           <div className="flex space-x-4">
             <button className="bg-blue-500 text-white py-2 px-4 rounded">Sign Up</button>

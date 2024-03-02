@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         customEmel: '#0055FF',
         customEmelDark: '#003366', // Darker shade for dark mode
+        customClick: '#000E2B',
       },
     },
   },

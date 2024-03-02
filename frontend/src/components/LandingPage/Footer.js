@@ -4,12 +4,13 @@ import Emel from '../../assets/EmEl.svg';
 const Footer = () => {
   return (
     <footer className="  p-8">
-      <div className="flex">
+      {/* <div className="flex">
         <img src={Emel} alt="Emel Logo" className="h-6 mb-4" />
-      </div>
+      </div> */}
 
       <div className="grid grid-cols-6 md:grid-cols-6 lg:grid-cols-6 gap-8">
         <div>
+        <img src={Emel} alt="Emel Logo" className="h-6 mb-4" />
           <h3 className="text-lg font-bold mb-4">Services</h3>
           <ul>
             <li>Video Call</li>
